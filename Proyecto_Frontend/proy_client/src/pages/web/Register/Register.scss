@@ -1,0 +1,98 @@
+$primary-color: #0984E3; 
+
+.button-container-register {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  
+  .custom-button-register {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    z-index: 0;
+  }
+  .custom-button-register:hover:after {
+    top: 0;
+    left: 0;
+  }
+  .custom-button-register:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #ffe566;
+  }
+
+
+  
+  .registrar-button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #F4D73B;
+    color: #F4D73B;
+  }
+  .registrar-button:hover {
+    color: #fff;
+  }
+  .registrar-button:hover:after {
+    width: 100%;
+  }
+  .registrar-button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #F4D73B;
+  }
+
+}
+
+.input-field {
+    border-color: #0090D0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.custom-select .ant-select-selector {
+    border-color: #0090D0 !important;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.ant-form-item-label > label {
+    color: #0069A3 !important;
+}
+
+.label-text-register {
+  font-family: 'Fira Sans';
+}
+

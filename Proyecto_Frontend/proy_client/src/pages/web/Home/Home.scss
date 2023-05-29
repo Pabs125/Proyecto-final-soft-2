@@ -1,0 +1,84 @@
+$primary-color: #0984E3; 
+
+.button-container-home {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+
+  .custom-button-home {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #F4D73B;
+    color: #F4D73B;
+  }
+  .custom-button-home:hover {
+    color: #fff;
+  }
+  .custom-button-home:hover:after {
+    width: 100%;
+  }
+  .custom-button-home:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #F4D73B;
+  }
+
+  
+
+  .ingresar-button-home {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #0069A3;
+    color: #0069A3;
+  }
+  .ingresar-button-home:hover {
+    color: #fff;
+  }
+  .ingresar-button-home:hover:after {
+    width: 100%;
+  }
+  .ingresar-button-home:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #0069A3;
+  }
+}
+
+
